@@ -1,34 +1,33 @@
 <!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/978197817/24.2.6%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1290233)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-# Product/Platform - Task
+# XAF Blazor — .NET Aspire Support — Custom Telemetry, Service Orchestration, Database Dependency
 
-This is the repository template for creating new examples. Describe the solved task here.
+This example leverages the following .NET Aspire capabilities within an XAF-powered Blazor application:
 
-Put a screenshot that illustrates the result here.
+* **Custom Telemetry with OpenTelemetry**. Log custom activities/metrics with OpenTelemetry, which are then visualized in the Aspire Dashboard. This integration allows you to monitor and analyze application performance and behavior.
+* **Database Dependency Management**. Run SQL Server as a dependency inside a container coordinated by Aspire. This approach simplifies database management and deployment.
+* **Service Orchestration**. Configure your Blazor application as part of Aspire orchestration. This configuration allows you to manage and coordinate multiple services in your application ecosystem.
 
-Then, add implementation details (steps, code snippets, and other technical information in a free form), or add a link to an existing document with implementation details. 
+As you would expect, these features improve observability, modularity, and deployment flexibility within your XAF-powered Blazor application if using .NET Aspire.
+
+For a detailed walkthrough, refer to the following blog post: [.NET Aspire Support For An XAF Blazor Project — Custom Telemetry, Service Orchestration, Database Dependency](https://community.devexpress.com/Blogs/news/archive/2025/04/21/net-aspire-xaf-blazor-custom-telemetry-service-orchestration-database-dependency.aspx)
 
 ## Files to Review
 
-- link.cs (VB: link.vb)
-- link.js
-- ...
+- [XafAspireDemo.Blazor.Server/Controllers/ImportantBusinessOperationsController.cs](CS/XafAspireDemo.Blazor.Server/Controllers/ImportantBusinessOperationsController.cs)
+- [XafAspireDemo.Blazor.Server/Telemetry.cs](CS/XafAspireDemo.Blazor.Server/Telemetry.cs)
+- [XafAspireDemo.Blazor.Server/Startup.cs](CS/XafAspireDemo.Blazor.Server/Startup.cs)
+- [XafAspireDemo.Blazor.Server/BlazorApplication.cs](CS/XafAspireDemo.Blazor.Server/BlazorApplication.cs)
+- [XafAspireDemo.AppHost/Program.cs](CS/XafAspireDemo.AppHost/Program.cs)
+- [XAFAspireDemo.DemoService/Program.cs](CS/XAFAspireDemo.DemoService/Program.cs)
 
-## Documentation
+## Additional Examples
 
-- link
-- link
-- ...
+- [XAF Blazor — .NET Aspire Support — Introduction](https://github.com/DevExpress-Examples/xaf-blazor-aspire-support)
 
-## More Examples
-
-- link
-- link
-- ...
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 
