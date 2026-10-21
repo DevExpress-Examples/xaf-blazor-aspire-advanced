@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <CheckEolTargetFramework>false</CheckEolTargetFramework>
     <Deterministic>false</Deterministic>
     <AssemblyVersion>1.0.*</AssemblyVersion>
@@ -15,21 +15,21 @@
     <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.ExpressApp" Version="25.2.1-alpha-25302" />
-    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="25.2.1-alpha-25302" />
-    <PackageReference Include="DevExpress.ExpressApp.ConditionalAppearance" Version="25.2.1-alpha-25302" />
-    <PackageReference Include="DevExpress.ExpressApp.EFCore" Version="25.2.1-alpha-25302" />
-    <PackageReference Include="DevExpress.ExpressApp.Validation" Version="25.2.1-alpha-25302" />
-    <PackageReference Include="DevExpress.Persistent.Base" Version="25.2.1-alpha-25302" />
-    <PackageReference Include="DevExpress.Persistent.BaseImpl.EFCore" Version="25.2.1-alpha-25302" />
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="9.0.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="9.0.3" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.3" />
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.14.0" />
-    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.10.0" />
+    <PackageReference Include="DevExpress.ExpressApp" Version="26.1.5" />
+    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="26.1.5" />
+    <PackageReference Include="DevExpress.ExpressApp.ConditionalAppearance" Version="26.1.5" />
+    <PackageReference Include="DevExpress.ExpressApp.EFCore" Version="26.1.5" />
+    <PackageReference Include="DevExpress.ExpressApp.Validation" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Persistent.Base" Version="26.1.5" />
+    <PackageReference Include="DevExpress.Persistent.BaseImpl.EFCore" Version="26.1.5" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="10.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="10.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.10" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.22.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="5.6.0" />
   
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.3">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.10">
       <PrivateAssets>none</PrivateAssets>
       <IncludeAssets>all</IncludeAssets>
     </PackageReference>

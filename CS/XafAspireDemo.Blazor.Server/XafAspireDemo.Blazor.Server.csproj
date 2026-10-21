@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <CheckEolTargetFramework>false</CheckEolTargetFramework>
     <Deterministic>false</Deterministic>
     <AssemblyVersion>1.0.*</AssemblyVersion>
@@ -17,13 +17,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Drawing.Skia" Version="25.2.1-alpha-25302" />
-    <PackageReference Include="DevExpress.ExpressApp.Blazor" Version="25.2.1-alpha-25302" />
-    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="25.2.1-alpha-25302" />
-    <PackageReference Include="DevExpress.ExpressApp.Validation.Blazor" Version="25.2.1-alpha-25302" />
+    <PackageReference Include="DevExpress.Drawing.Skia" Version="26.1.5" />
+    <PackageReference Include="DevExpress.ExpressApp.Blazor" Version="26.1.5" />
+    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="26.1.5" />
+    <PackageReference Include="DevExpress.ExpressApp.Validation.Blazor" Version="26.1.5" />
     <PackageReference Include="OpenTelemetry.Instrumentation.EntityFrameworkCore" Version="1.11.0-beta.2" />
-    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.10.0" />
-    <PackageReference Include="System.Security.Cryptography.Xml" Version="9.0.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="5.6.0" />
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="10.0.10" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XafAspireDemo.Module\XafAspireDemo.Module.csproj" />
